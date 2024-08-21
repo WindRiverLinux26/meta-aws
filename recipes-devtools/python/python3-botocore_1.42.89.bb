@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=2ee41112a44fe7014dce33e26468ba93"
 FILESEXTRAPATHS:prepend := "${THISDIR}/../files:"
 
 SRC_URI = "\
-    git://github.com/boto/botocore.git;protocol=https;branch=master \
+    git://github.com/boto/botocore.git;protocol=https;nobranch=1 \
     file://run-ptest \
     file://python_dependency_test.py \
     "
